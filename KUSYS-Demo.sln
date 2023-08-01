@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{98BBF3E7-5FAF-4656-920F-4AF0E9D13F65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{2E2BC4B9-B3A9-4613-9466-8681AE3393BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Data", "KUSYS.Data\KUSYS.Data.csproj", "{9DF8D2CC-FA92-4A6A-B662-185C3C8B6AE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Business", "KUSYS.Business\KUSYS.Business.csproj", "{22479EDF-340A-426F-88E3-A5971D148F38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Model", "KUSYS.Model\KUSYS.Model.csproj", "{2522E84C-BA68-4997-A80B-4B94CEEA2449}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Infra.IoC", "Infra\KUSYS.Infra.IoC\KUSYS.Infra.IoC.csproj", "{B69E8423-99C5-45E6-814B-22BDE8677285}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Application.WebUI", "Application\KUSYS.Application.WebUI\KUSYS.Application.WebUI.csproj", "{17D96260-26CE-416F-956B-6BDCAFB92C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KUSYS.Dto", "KUSYS.Dto\KUSYS.Dto.csproj", "{03EB0C58-8815-43DA-B9D9-EDA4FD0F5F70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF8D2CC-FA92-4A6A-B662-185C3C8B6AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF8D2CC-FA92-4A6A-B662-185C3C8B6AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF8D2CC-FA92-4A6A-B662-185C3C8B6AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF8D2CC-FA92-4A6A-B662-185C3C8B6AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22479EDF-340A-426F-88E3-A5971D148F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22479EDF-340A-426F-88E3-A5971D148F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22479EDF-340A-426F-88E3-A5971D148F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22479EDF-340A-426F-88E3-A5971D148F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2522E84C-BA68-4997-A80B-4B94CEEA2449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2522E84C-BA68-4997-A80B-4B94CEEA2449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2522E84C-BA68-4997-A80B-4B94CEEA2449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2522E84C-BA68-4997-A80B-4B94CEEA2449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69E8423-99C5-45E6-814B-22BDE8677285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69E8423-99C5-45E6-814B-22BDE8677285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69E8423-99C5-45E6-814B-22BDE8677285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69E8423-99C5-45E6-814B-22BDE8677285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D96260-26CE-416F-956B-6BDCAFB92C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D96260-26CE-416F-956B-6BDCAFB92C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D96260-26CE-416F-956B-6BDCAFB92C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D96260-26CE-416F-956B-6BDCAFB92C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EB0C58-8815-43DA-B9D9-EDA4FD0F5F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EB0C58-8815-43DA-B9D9-EDA4FD0F5F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EB0C58-8815-43DA-B9D9-EDA4FD0F5F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EB0C58-8815-43DA-B9D9-EDA4FD0F5F70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B69E8423-99C5-45E6-814B-22BDE8677285} = {2E2BC4B9-B3A9-4613-9466-8681AE3393BF}
+		{17D96260-26CE-416F-956B-6BDCAFB92C98} = {98BBF3E7-5FAF-4656-920F-4AF0E9D13F65}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B34342E-8DE1-4A31-850F-6916AE36CCEF}
+	EndGlobalSection
+EndGlobal

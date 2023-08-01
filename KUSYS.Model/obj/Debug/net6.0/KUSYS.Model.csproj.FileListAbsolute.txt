@@ -1,0 +1,12 @@
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\bin\Debug\net6.0\KUSYS.Model.deps.json
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\bin\Debug\net6.0\KUSYS.Model.dll
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\bin\Debug\net6.0\KUSYS.Model.pdb
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\obj\Debug\net6.0\KUSYS.Model.csproj.AssemblyReference.cache
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\obj\Debug\net6.0\KUSYS.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\obj\Debug\net6.0\KUSYS.Model.AssemblyInfoInputs.cache
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\obj\Debug\net6.0\KUSYS.Model.AssemblyInfo.cs
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\obj\Debug\net6.0\KUSYS.Model.csproj.CoreCompileInputs.cache
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\obj\Debug\net6.0\KUSYS.Model.dll
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\obj\Debug\net6.0\refint\KUSYS.Model.dll
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\obj\Debug\net6.0\KUSYS.Model.pdb
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Model\obj\Debug\net6.0\ref\KUSYS.Model.dll

@@ -1,0 +1,5 @@
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.csproj.AssemblyReference.cache
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.AssemblyInfoInputs.cache
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.AssemblyInfo.cs
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.csproj.CoreCompileInputs.cache
