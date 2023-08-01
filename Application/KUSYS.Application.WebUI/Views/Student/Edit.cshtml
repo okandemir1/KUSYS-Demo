@@ -1,0 +1,31 @@
+﻿@model StudentActionDto
+
+@{
+    var title = "Student Edit";
+    ViewData["Title"] = title;
+}
+
+<div class="content">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5>@title</h5>
+                    <div class="card-header-right">
+                        <ul class="list-unstyled card-option">
+                            <li><a href="@Url.Action("Index","Student")" class="btn btn-sm btn-warning mr-2">List</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @await Component.InvokeAsync("StudentForm", new { action = "Edit", Model = Model })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+    {
+    @await Html.PartialAsync("Components/StudentForm/_StudentFormScriptsPartial")
+}

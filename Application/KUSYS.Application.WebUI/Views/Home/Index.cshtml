@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    var claims = _session.Get<List<KUSYS.Model.RoleClaim>>("StudentClaims");
+}
+
+<div class="content">
+    <div class="row">
+        @if (claims != null && claims.Select(x => x.DefaultClaim.UserRight).ToList().Contains("StudentManagement"))
+        {
+            
+        }
+        
+    </div>
+</div>

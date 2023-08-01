@@ -1,0 +1,110 @@
+﻿@{
+    var title = "Students";
+    ViewBag.Title = title;
+}
+
+<div class="content">
+    <div class="card">
+        <div class="card-header">
+            <h5>@title</h5>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-lg-* pr-3">
+                    <input placeholder="Search..." class="form-control" id="contentSearchInput">
+                </div>
+                <div class="col-lg-*">
+                    <button class="btn btn-success" id="filterButton">Filter</button>
+                </div>
+                <div class="col text-right">
+                    <a href="@Url.Action("Create","Student")" class="btn btn-warning mr-2">Add New</a>
+                </div>
+                
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped" id="contentDataTable">
+                    <thead>
+                        <tr>
+                            <th>Fullname</th>
+                            <th>-</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12 mb-3">
+                <span class="text-muted text-small datatable-outofbox-infotext"> </span>
+                <button class="btn btn-outline-dark btn-sm dropdown-toggle datatable-outofbox-lengthtext"
+                        role="button" data-toggle="dropdown" aria-expanded="false">
+                    10
+                </button>
+                <div class="dropdown-menu dropdown-menu-right datatable-outofbox-length">
+                    <a class="dropdown-item datatable-outofbox-dropdownButton">10</a>
+                    <a class="dropdown-item datatable-outofbox-dropdownButton">20</a>
+                    <a class="dropdown-item datatable-outofbox-dropdownButton">30</a>
+                    <a class="dropdown-item datatable-outofbox-dropdownButton">50</a>
+                    <a class="dropdown-item datatable-outofbox-dropdownButton">100</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+    @section scripts{
+
+    <script>
+        var oTable;
+        $(document).ready(function () {
+            oTable = main.CreateDatatable('#contentDataTable',
+                {
+                    serverSide: true,
+                    ajax: {
+                        url: "@Url.Action("GetList", "Student")",
+                        "type": "POST",
+                        "datatype": "json",
+                        data: function (d) {
+                        },
+                    },
+                    "columns": [
+                        { "data": "fullname", "name": "Fullname", "autoWidth": true },
+                        {
+                            "data": "id", "name": "Id", "autoWidth": true,
+                            "render": function (data, type, full, meta) {
+                                var retHtml = "";
+                                retHtml += '<a title="Düzenle" class="btn btn-warning py-1 mr-2" href="/Student/Edit/' + full.studentId + '"><span class="fa fa-pencil"></span></a>';
+                                retHtml += '<a title="Sil" class="btn btn-danger py-1 delete" data-id="' + full.studentId + '"><span class="fa fa-trash"></span></a>';
+                                return retHtml;
+                            }
+                        },
+                    ]
+                });
+
+            $("body").on("click", "#filterButton", function () {
+                oTable.search($("#contentSearchInput").val());
+                oTable.draw();
+            });
+
+            $('body').keypress(function (event) {
+                var keycode = (event.keyCode ? event.keyCode : event.which);
+                if (keycode == '13') {
+                    event.preventDefault();
+                }
+            });
+
+            $('#contentSearchInput').keypress(function (event) {
+                var keycode = (event.keyCode ? event.keyCode : event.which);
+                if (keycode == '13') {
+                    oTable.search($("#contentSearchInput").val());
+                    oTable.draw();
+                }
+            });
+
+            $("body").on("click", ".delete", function () {
+                var id = $(this).attr("data-id");
+                LayoutJsHelper.Delete("Student/Delete", id);
+            });
+        });
+    </script>
+}

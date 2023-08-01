@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j4Lx+JD2fHPJqK7Q+wAnXV5tPWOYzKISFlAtmuEu8ws=",
+  "Hash": "1t04vMYTzGgNhotJVWEjL638RNXnQcT7DqjAoxQUYZY=",
   "Source": "KUSYS.Application.WebUI",
   "BasePath": "_content/KUSYS.Application.WebUI",
   "Mode": "Default",
@@ -17,46 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KUSYS.Application.WebUI.styles.css",
-      "SourceId": "KUSYS.Application.WebUI",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "KUSYS.Application.WebUI.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\KUSYS.Application.WebUI.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KUSYS.Application.WebUI.bundle.scp.css",
-      "SourceId": "KUSYS.Application.WebUI",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "KUSYS.Application.WebUI.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KUSYS.Application.WebUI.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\bootstrap.min.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "css/site.css",
+      "RelativePath": "_assets/css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\bootstrap-multiselect.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "_assets/css/bootstrap-multiselect.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +48,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\bootstrap-multiselect.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\custom.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "js/site.js",
+      "RelativePath": "_assets/css/custom.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\custom.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\dataTables.bootstrap4.min.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "RelativePath": "_assets/css/dataTables.bootstrap4.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\dataTables.bootstrap4.min.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\datepicker\\bootstrap-datetimepicker.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "RelativePath": "_assets/css/datepicker/bootstrap-datetimepicker.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\datepicker\\bootstrap-datetimepicker.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\datepicker\\datedropper.min.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "RelativePath": "_assets/css/datepicker/datedropper.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\datepicker\\datedropper.min.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\datepicker\\daterangepicker.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "RelativePath": "_assets/css/datepicker/daterangepicker.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\datepicker\\daterangepicker.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\font-awesome.min.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "RelativePath": "_assets/css/font-awesome.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\notify.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "RelativePath": "_assets/css/notify.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\notify.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pcoded-horizontal.min.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "RelativePath": "_assets/css/pcoded-horizontal.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\pcoded-horizontal.min.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.brighttheme.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "RelativePath": "_assets/css/pnotify.brighttheme.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\pnotify.brighttheme.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.buttons.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "RelativePath": "_assets/css/pnotify.buttons.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\pnotify.buttons.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "RelativePath": "_assets/css/pnotify.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\pnotify.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.history.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "RelativePath": "_assets/css/pnotify.history.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\pnotify.history.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.mobile.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "RelativePath": "_assets/css/pnotify.mobile.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\pnotify.mobile.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\select2.min.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "RelativePath": "_assets/css/select2.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\select2.min.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\style.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "RelativePath": "_assets/css/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\vanillaSelectBox.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "RelativePath": "_assets/css/vanillaSelectBox.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\css\\vanillaSelectBox.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\datatables\\datatable.turkish.json",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "RelativePath": "_assets/datatables/datatable.turkish.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\datatables\\datatable.turkish.json"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\datatables\\dataTables.bootstrap4.css",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "RelativePath": "_assets/datatables/dataTables.bootstrap4.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\datatables\\dataTables.bootstrap4.css"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\datatables\\datatables.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "RelativePath": "_assets/datatables/datatables.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\datatables\\datatables.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.eot",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "RelativePath": "_assets/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.svg",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "RelativePath": "_assets/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "RelativePath": "_assets/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.woff",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "RelativePath": "_assets/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,15 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "RelativePath": "_assets/fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -490,15 +456,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\auth-bg.jpg",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "RelativePath": "_assets/img/auth-bg.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -507,15 +473,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\auth-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\auth-bg_.jpg",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "RelativePath": "_assets/img/auth-bg_.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -524,15 +490,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\auth-bg_.jpg"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\favicon.ico",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "RelativePath": "_assets/img/favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -541,15 +507,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\favicon.png",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "RelativePath": "_assets/img/favicon.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -558,15 +524,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\check.png",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "RelativePath": "_assets/img/icons/check.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -575,15 +541,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\icons\\check.png"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\cooking.png",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "RelativePath": "_assets/img/icons/cooking.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -592,15 +558,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\icons\\cooking.png"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\delete-button.png",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "RelativePath": "_assets/img/icons/delete-button.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -609,15 +575,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\icons\\delete-button.png"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\delivery-bike.png",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "RelativePath": "_assets/img/icons/delivery-bike.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -626,15 +592,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\icons\\delivery-bike.png"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\new.png",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "RelativePath": "_assets/img/icons/new.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -643,15 +609,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\icons\\new.png"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\ready.png",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "RelativePath": "_assets/img/icons/ready.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,15 +626,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\icons\\ready.png"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\ky_logo.png",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "RelativePath": "_assets/img/ky_logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -677,15 +643,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\ky_logo.png"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\logo.svg",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "RelativePath": "_assets/img/logo.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -694,15 +660,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\logo-mini.svg",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "RelativePath": "_assets/img/logo-mini.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -711,15 +677,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\logo-mini.svg"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\user_icon.png",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
+      "RelativePath": "_assets/img/user_icon.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -728,15 +694,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\img\\user_icon.png"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\bootstrap.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "RelativePath": "_assets/js/bootstrap.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -745,15 +711,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\bootstrap-multiselect.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "RelativePath": "_assets/js/bootstrap-multiselect.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -762,15 +728,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\bootstrap-multiselect.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\dataTables.bootstrap4.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "RelativePath": "_assets/js/dataTables.bootstrap4.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -779,15 +745,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\dataTables.bootstrap4.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\bootstrap-datepicker.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
+      "RelativePath": "_assets/js/datepicker/bootstrap-datepicker.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -796,15 +762,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\datepicker\\bootstrap-datepicker.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\bootstrap-datetimepicker.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
+      "RelativePath": "_assets/js/datepicker/bootstrap-datetimepicker.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -813,15 +779,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\datepicker\\bootstrap-datetimepicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\datedropper.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "RelativePath": "_assets/js/datepicker/datedropper.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -830,15 +796,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\datepicker\\datedropper.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\daterangepicker.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "RelativePath": "_assets/js/datepicker/daterangepicker.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -847,15 +813,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\datepicker\\daterangepicker.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\moment-with-locales.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/bootstrap/LICENSE",
+      "RelativePath": "_assets/js/datepicker/moment-with-locales.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -864,15 +830,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\datepicker\\moment-with-locales.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\horizontal-layout.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "_assets/js/horizontal-layout.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,15 +847,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\horizontal-layout.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\jquery.dataTables.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "_assets/js/jquery.dataTables.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -898,15 +864,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\jquery.dataTables.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\jquery.unobtrusive-ajax.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "_assets/js/jquery.unobtrusive-ajax.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -915,15 +881,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\jquery-3.6.3.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery/LICENSE.txt",
+      "RelativePath": "_assets/js/jquery-3.6.3.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -932,15 +898,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\jquery-3.6.3.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\main.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "RelativePath": "_assets/js/main.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -949,15 +915,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pcoded.min.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "RelativePath": "_assets/js/pcoded.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -966,15 +932,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pcoded.min.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.animate.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "RelativePath": "_assets/js/pnotify.animate.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -983,15 +949,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pnotify.animate.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.buttons.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "RelativePath": "_assets/js/pnotify.buttons.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1000,15 +966,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pnotify.buttons.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.callbacks.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "RelativePath": "_assets/js/pnotify.callbacks.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1017,15 +983,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pnotify.callbacks.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.confirm.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "_assets/js/pnotify.confirm.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1034,15 +1000,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pnotify.confirm.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.desktop.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "_assets/js/pnotify.desktop.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1051,15 +1017,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pnotify.desktop.js"
     },
     {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.history.js",
       "SourceId": "KUSYS.Application.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
       "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "_assets/js/pnotify.history.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1068,7 +1034,143 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pnotify.history.js"
+    },
+    {
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.js",
+      "SourceId": "KUSYS.Application.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
+      "BasePath": "_content/KUSYS.Application.WebUI",
+      "RelativePath": "_assets/js/pnotify.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pnotify.js"
+    },
+    {
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.mobile.js",
+      "SourceId": "KUSYS.Application.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
+      "BasePath": "_content/KUSYS.Application.WebUI",
+      "RelativePath": "_assets/js/pnotify.mobile.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pnotify.mobile.js"
+    },
+    {
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.nonblock.js",
+      "SourceId": "KUSYS.Application.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
+      "BasePath": "_content/KUSYS.Application.WebUI",
+      "RelativePath": "_assets/js/pnotify.nonblock.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\pnotify.nonblock.js"
+    },
+    {
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\popper.min.js",
+      "SourceId": "KUSYS.Application.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
+      "BasePath": "_content/KUSYS.Application.WebUI",
+      "RelativePath": "_assets/js/popper.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\popper.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\select2.full.min.js",
+      "SourceId": "KUSYS.Application.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
+      "BasePath": "_content/KUSYS.Application.WebUI",
+      "RelativePath": "_assets/js/select2.full.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\select2.full.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\sweetalert.js",
+      "SourceId": "KUSYS.Application.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
+      "BasePath": "_content/KUSYS.Application.WebUI",
+      "RelativePath": "_assets/js/sweetalert.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\sweetalert.js"
+    },
+    {
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\turkish-string.js",
+      "SourceId": "KUSYS.Application.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
+      "BasePath": "_content/KUSYS.Application.WebUI",
+      "RelativePath": "_assets/js/turkish-string.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\turkish-string.js"
+    },
+    {
+      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\vanillaSelectBox.js",
+      "SourceId": "KUSYS.Application.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
+      "BasePath": "_content/KUSYS.Application.WebUI",
+      "RelativePath": "_assets/js/vanillaSelectBox.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\_assets\\js\\vanillaSelectBox.js"
     }
   ]
 }

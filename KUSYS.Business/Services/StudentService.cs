@@ -1,15 +1,12 @@
-﻿using KUSYS.Business.Encyription;
+﻿using FluentValidation;
+using KUSYS.Business.Encyription;
+using KUSYS.Business.Filters;
 using KUSYS.Business.Mapper;
 using KUSYS.Data.Repository;
 using KUSYS.Dto;
 using KUSYS.Dto.Validation;
 using KUSYS.Model;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KUSYS.Business.Interfaces
 {
@@ -163,6 +160,74 @@ namespace KUSYS.Business.Interfaces
                     && !x.IsDeleted);
 
             return exist;
+        }
+
+        public async Task<DbOperationResult<StudentSimpleDto>> Login(LoginDto mDto)
+        {
+            var validCheck = new LoginValidation().Validate(mDto);
+            if (!validCheck.IsValid)
+            {
+                var errors = new List<string>();
+                validCheck.Errors.ForEach(x => errors.Add(x.ErrorMessage));
+                return new DbOperationResult<StudentSimpleDto>(false, "Eksik veya hatalı veri girişi", errors, null);
+            }
+
+            var hasExistUsername = await ExistUsername(mDto.Username);
+            if (!hasExistUsername)
+                return new DbOperationResult<StudentSimpleDto>(false, "Kullanıcı adı veya şifre hatalı");
+
+            var login = await PasswordCheck(mDto.Username,mDto.Password);
+            if(login == null)
+                return new DbOperationResult<StudentSimpleDto>(false, "Kullanıcı adı veya şifre hatalı");
+
+            var response = await _studentRepository.ListQueryableNoTracking
+                .Where(x => x.StudentId == login.StudentId && !x.IsDeleted)
+                .Select(x => new StudentSimpleDto()
+                {
+                    Fullname = $"{x.FirstName} {x.LastName}",
+                    RoleId = x.RoleId,
+                    StudentId = x.StudentId
+                }).FirstOrDefaultAsync();
+
+            if (response == null)
+                return new DbOperationResult<StudentSimpleDto>(false, "Kullanıcı bulunamadı");
+
+            return new DbOperationResult<StudentSimpleDto>(true, "Giriş Yapıldı", response);
+        }
+
+        //Sadece session için kullan
+        public async Task<StudentSimpleDto> GetStudent(string id)
+        {
+            var data = await _studentRepository.ListQueryableNoTracking
+                .Where(x => x.StudentId == id && !x.IsDeleted)
+                .Select(x => new StudentSimpleDto()
+                {
+                    Fullname = $"{x.FirstName} {x.LastName}",
+                    RoleId = x.RoleId,
+                    StudentId = x.StudentId
+                }).FirstOrDefaultAsync();
+
+            return data;
+        }
+
+        public async Task<DataTableViewModelResult<List<StudentSimpleDto>>> GetAll(StudentFilterModel filterModel)
+        {
+            var response = new DataTableViewModelResult<List<StudentSimpleDto>>();
+            response.IsSucceeded = true;
+
+            var result = _studentRepository.ListQueryableNoTracking
+                .Where(x => !x.IsDeleted)
+                .Select(x=> new StudentSimpleDto()
+                {
+                    Fullname = $"{x.FirstName} {x.LastName}",
+                    StudentId = x.StudentId,
+                });
+
+            response.TotalCount = result.Count();
+            response.RecordsFiltered = result.AddSearchFilters(filterModel).Count();
+            response.Data = await result.AddSearchFilters(filterModel).AddOrderAndPageFilters(filterModel).ToListAsync();
+
+            return response;
         }
     }
 }

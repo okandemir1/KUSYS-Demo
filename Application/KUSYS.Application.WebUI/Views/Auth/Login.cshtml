@@ -1,0 +1,121 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+
+    <link rel="stylesheet" href="~/_assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/_assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/_assets/css/style.css">
+    <link rel="stylesheet" href="~/_assets/css/custom.css">
+    <style>
+        .forgotText {
+            cursor: pointer;
+        }
+
+            .forgotText:hover {
+                color: #fa9628;
+            }
+    </style>
+
+</head>
+<body>
+
+    <div class="loginLoader" style="display:none;">
+        <div class="loaderBox">
+            <div class="cartLoader">
+                <div class="text-center">
+                    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                    <div class="cartLoaderText text-white">Lütfen Bekleyiniz</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="login-block">
+        
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <form asp-controller="Auth" asp-action="Login"
+                          class="md-float-material form-material"
+                          data-ajax="true" data-ajax-method="POST"
+                          data-ajax-success="OnFormSuccess"
+                          data-ajax-begin="BeginForm">
+
+                        <div class="text-center">
+                            <img src="/_assets/img/ky_logo.png" alt="logo.png">
+                        </div>
+                        <div class="auth-box card">
+                            <div class="card-block">
+                                <div class="row m-b-20">
+                                    <div class="col-md-12">
+                                        <h3 class="text-center">Giriş Yap</h3>
+                                    </div>
+                                </div>
+                                <div class="form-group form-primary">
+                                    <input type="text" name="Username" class="form-control" required="" placeholder="Kullanıcı Adı">
+                                    <span class="form-bar"></span>
+                                </div>
+                                <div class="form-group form-primary">
+                                    <input type="password" name="Password" class="form-control" required="" placeholder="Şifre">
+                                    <span class="form-bar"></span>
+                                </div>
+                                <div class="row m-t-25 text-left">
+                                    <div class="col-12">
+                                        <div class="forgot-phone text-right f-right">
+                                            <p class="text-right f-w-600 forgotText mb-0">
+                                                Şifremi Unuttum
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-t-30">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-8">
+                                        <button type="submit" class="btn btn-warning btn-md btn-block waves-effect waves-light text-center m-b-20">Giriş Yap</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/_assets/js/jquery-3.6.3.min.js" asp-append-version="true"></script>
+    <script src="~/_assets/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script src="~/_assets/js/main.js" asp-append-version="true"></script>
+    <script src="~/_assets/js/sweetalert.js" asp-append-version="true"></script>
+    <script src="~/_assets/js/jquery.unobtrusive-ajax.min.js" asp-append-version="true"></script>
+
+    <script>
+        function OnFormSuccess(result) {
+            if (result.isSucceed) {
+                main.SuccessActionMessage("Başarılı", result.message, "/Home/");
+            }
+            else {
+                if (result.errors != null && result.errors.length > 0) {
+                    $(".loginLoader").css("display","none");
+                    main.ErrorMessageList("Hay Aksi", result.errors, result.message)
+                }
+                else {
+                    $(".loginLoader").css("display", "none");
+                    main.ShowError("Hay Aksi", result.message);
+                    
+                }
+            }
+        };
+
+        function BeginForm() {
+            $(".loginLoader").css("display","block");
+        };
+    </script>
+</body>
+</html>

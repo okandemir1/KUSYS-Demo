@@ -1,248 +1,276 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KUSYS.Application.WebUI.bundle.scp.css",
-      "PackagePath": "staticwebassets\\KUSYS.Application.WebUI.bundle.scp.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\bootstrap-multiselect.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\bootstrap-multiselect.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\custom.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\dataTables.bootstrap4.min.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\datepicker\\bootstrap-datetimepicker.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\datepicker\\bootstrap-datetimepicker.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\datepicker\\datedropper.min.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\datepicker\\datedropper.min.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\datepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\datepicker\\daterangepicker.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\notify.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\notify.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pcoded-horizontal.min.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\pcoded-horizontal.min.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.brighttheme.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\pnotify.brighttheme.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.buttons.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\pnotify.buttons.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\pnotify.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.history.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\pnotify.history.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\pnotify.mobile.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\pnotify.mobile.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\select2.min.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\css\\vanillaSelectBox.css",
+      "PackagePath": "staticwebassets\\_assets\\css\\vanillaSelectBox.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\datatables\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\_assets\\datatables\\dataTables.bootstrap4.css"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\datatables\\datatable.turkish.json",
+      "PackagePath": "staticwebassets\\_assets\\datatables\\datatable.turkish.json"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\_assets\\datatables\\datatables.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\_assets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\_assets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\_assets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\_assets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\_assets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\auth-bg.jpg",
+      "PackagePath": "staticwebassets\\_assets\\img\\auth-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\auth-bg_.jpg",
+      "PackagePath": "staticwebassets\\_assets\\img\\auth-bg_.jpg"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\_assets\\img\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\_assets\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\check.png",
+      "PackagePath": "staticwebassets\\_assets\\img\\icons\\check.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\cooking.png",
+      "PackagePath": "staticwebassets\\_assets\\img\\icons\\cooking.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\delete-button.png",
+      "PackagePath": "staticwebassets\\_assets\\img\\icons\\delete-button.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\delivery-bike.png",
+      "PackagePath": "staticwebassets\\_assets\\img\\icons\\delivery-bike.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\new.png",
+      "PackagePath": "staticwebassets\\_assets\\img\\icons\\new.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\icons\\ready.png",
+      "PackagePath": "staticwebassets\\_assets\\img\\icons\\ready.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\ky_logo.png",
+      "PackagePath": "staticwebassets\\_assets\\img\\ky_logo.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\_assets\\img\\logo-mini.svg"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\_assets\\img\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\user_icon.png",
+      "PackagePath": "staticwebassets\\_assets\\img\\user_icon.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\bootstrap-multiselect.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\bootstrap-multiselect.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\dataTables.bootstrap4.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\datepicker\\bootstrap-datepicker.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\datepicker\\bootstrap-datetimepicker.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\datedropper.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\datepicker\\datedropper.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\datepicker\\daterangepicker.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\datepicker\\moment-with-locales.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\datepicker\\moment-with-locales.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\horizontal-layout.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\horizontal-layout.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\jquery-3.6.3.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\jquery-3.6.3.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\jquery.dataTables.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pcoded.min.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.animate.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pnotify.animate.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.buttons.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pnotify.buttons.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.callbacks.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pnotify.callbacks.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.confirm.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pnotify.confirm.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.desktop.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pnotify.desktop.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.history.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pnotify.history.js"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pnotify.js"
+    },
+    {
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.mobile.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pnotify.mobile.js"
+    },
+    {
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\pnotify.nonblock.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\pnotify.nonblock.js"
+    },
+    {
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\sweetalert.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\sweetalert.js"
+    },
+    {
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\turkish-string.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\turkish-string.js"
+    },
+    {
+      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\js\\vanillaSelectBox.js",
+      "PackagePath": "staticwebassets\\_assets\\js\\vanillaSelectBox.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.KUSYS.Application.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",

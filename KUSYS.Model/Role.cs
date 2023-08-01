@@ -4,6 +4,6 @@ namespace KUSYS.Model
 {
     public class Role : BaseEntityWithDateAndId
     {
-        public string ClaimName { get; set; }
+        public string Name { get; set; }
     }
 }

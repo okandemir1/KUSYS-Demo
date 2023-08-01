@@ -1,0 +1,23 @@
+﻿{
+  "sEmptyTable": "Kayıt bulunamadı",
+  "sInfo": "Toplam _TOTAL_ Kayıttan _START_/_END_",
+  "sInfoEmpty": "-",
+  "sInfoFiltered": "(_MAX_ kayıt filtrelendi)",
+  "sInfoPostFix": "",
+  "sInfoThousands": ".",
+  "sLengthMenu": "_MENU_ Kayıt Goruntuleniyor",
+  "sLoadingRecords": "Yükleniyor...",
+  "sProcessing": "İşleniyor...",
+  "sSearch": "Ara",
+  "sZeroRecords": "Kayıt bulunamadı",
+  "oPaginate": {
+    "sFirst": "İlk",
+    "sPrevious": "Önceki",
+    "sNext": "Sonraki",
+    "sLast": "Son"
+  },
+  "oAria": {
+    "sSortAscending": ": aktivieren, um Spalte aufsteigend zu sortieren",
+    "sSortDescending": ": aktivieren, um Spalte absteigend zu sortieren"
+  }
+}

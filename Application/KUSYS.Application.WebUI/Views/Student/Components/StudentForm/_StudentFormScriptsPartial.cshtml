@@ -1,0 +1,17 @@
+﻿<script src="~/_assets/js/jquery.unobtrusive-ajax.min.js" asp-append-version="true"></script>
+<script>
+    function OnFormSuccess(result) {
+        if (result.isSucceed) {
+            main.SuccessActionMessage("Başarılı", result.message, "/Student/");
+        }
+        else {
+            if (result.errors != null && result.errors.length > 0) {
+                main.ErrorMessageList("Hay Aksi", result.errors, result.message)
+            }
+            else {
+                main.ShowError("Hay Aksi", result.message);
+            }
+        }
+    };
+    
+</script>
