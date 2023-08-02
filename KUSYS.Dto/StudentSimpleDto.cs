@@ -5,7 +5,8 @@ namespace KUSYS.Dto
     public class StudentSimpleDto
     {
         public string StudentId { get; set; }
-        public string Fullname { get; set; }
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
         public Guid RoleId { get; set; }
     }
 }

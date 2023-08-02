@@ -21,7 +21,7 @@ namespace KUSYS.Business.Filters
             {
                 if (filter.Term?.Length > 0)
                 {
-                    input = input.Where(x => x.Fullname.Contains(filter.Term));
+                    input = input.Where(x => x.Firstname.Contains(filter.Term) || x.Lastname.Contains(filter.Term));
                 }
             }
 

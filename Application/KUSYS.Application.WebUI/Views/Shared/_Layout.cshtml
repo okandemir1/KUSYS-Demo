@@ -37,13 +37,13 @@
                 </li>
                 @if (claims != null && claims.Select(x => x.DefaultClaim.UserRight).ToList().Contains("StudentManagement"))
                 {
-                    <li class="nav-item"><a class="nav-link" href="/">Students</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Student" asp-action="Index">Students</a></li>
                 }
             </ul>
             <ul class="navbar-nav ml-auto nav-flex-icons">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-lg fa-user"></i>&nbsp; @Html.Raw(_session.Get<StudentSimpleDto>("Student").Fullname)
+                        <i class="fa fa-lg fa-user"></i>&nbsp; @Html.Raw(_session.Get<StudentSimpleDto>("Student").Firstname + "" + _session.Get<StudentSimpleDto>("Student").Lastname)
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="@Url.Action("Logout","Auth")">Çıkış Yap</a>

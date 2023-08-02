@@ -12,9 +12,10 @@ namespace KUSYS.Business.Interfaces
         Task<DbOperationResult> Add(StudentActionDto mDto);
         Task<DbOperationResult> Edit(StudentActionDto mDto);
         Task<DbOperationResult> Delete(string id);
+        Task<StudentActionDto> GetStudentInfo(string id);
         Task<StudentSimpleDto> GetStudent(string id);
         Task<DbOperationResult<StudentSimpleDto>> Login(LoginDto mDto);
-        Task<bool> ExistUsername(string username, string studentId="");
-        Task<Student> PasswordCheck(string username, string password, string studentId = "");
+        Task<bool> ExistUsername(string username);
+        Task<Student> PasswordCheck(string username, string password);
     }
 }

@@ -37,7 +37,7 @@ namespace KUSYS.Application.WebUI.Controllers
             var claims = new List<Claim>
                     {
                         new Claim(ClaimTypes.NameIdentifier, student.StudentId),
-                        new Claim("FullName", $"{student.Fullname}"),
+                        new Claim("FullName", $"{student.Firstname} {student.Lastname}"),
                         new Claim(ClaimTypes.Role, student.RoleId.ToString()),
                     };
 

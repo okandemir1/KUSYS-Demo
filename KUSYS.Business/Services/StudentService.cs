@@ -52,6 +52,15 @@ namespace KUSYS.Business.Interfaces
 
                 mDto.Password = _cipher.Encrypt(mDto.Password);
                 var model = ObjectMapper.Mapper.Map<Student>(mDto);
+
+                var studentId = Guid.NewGuid().ToString().Split('-')[0];
+                var existStudentIds = await GetStudentIds();
+                while (existStudentIds.Contains(studentId))
+                {
+                    studentId = Guid.NewGuid().ToString().Split('-')[0];
+                }
+
+                model.StudentId = studentId;
                 var operationResult = await _studentRepository.Insert(model);
                 return operationResult;
 
@@ -61,6 +70,15 @@ namespace KUSYS.Business.Interfaces
                 //Log tutulması gerekir...
                 return new DbOperationResult(false, ex.Message);
             }
+        }
+
+        public async Task<List<string>> GetStudentIds()
+        {
+            var studentIds = await _studentRepository.ListQueryableNoTracking
+                .Where(x => !x.IsDeleted)
+                .GroupBy(x => x.StudentId).Select(x => x.Key).ToListAsync();
+
+            return studentIds;
         }
 
         /// <summary>
@@ -88,7 +106,7 @@ namespace KUSYS.Business.Interfaces
 
                 if(mDto.Username != modelInDb.Username)
                 {
-                    var checkUsername = await ExistUsername(mDto.Username, mDto.StudentId);
+                    var checkUsername = await ExistUsernameOther(mDto.Username, mDto.StudentId);
                     if (checkUsername)
                         return new DbOperationResult(false, "Bu kullanıcı adı başka bir öğrenci tarafından kullanılıyor");
                     else
@@ -98,6 +116,7 @@ namespace KUSYS.Business.Interfaces
                 modelInDb.BirthDate = mDto.BirthDate;
                 modelInDb.FirstName = mDto.FirstName;
                 modelInDb.LastName = mDto.LastName;
+                modelInDb.RoleId = mDto.RoleId;
 
                 var operationResult = await _studentRepository.Update(modelInDb);
                 return operationResult;
@@ -130,33 +149,43 @@ namespace KUSYS.Business.Interfaces
 
         /// <summary>
         /// Böyle bir kullanıcı daha önce kullanılmış mı?
-        /// studentId verisi zorunlu değildir. Güncelleme işlemi sırasında kullanılır
         /// </summary>
         /// <param name="username"></param>
         /// <param name="studentId"></param>
         /// <returns></returns>
-        public async Task<bool> ExistUsername(string username, string studentId = "")
+        public async Task<bool> ExistUsername(string username)
         {
             var exist = await _studentRepository.ListQueryableNoTracking
-                .AnyAsync(x => x.Username == username && !string.IsNullOrWhiteSpace(studentId) ? x.StudentId != studentId : true && !x.IsDeleted);
+                .Where(x => x.Username == username 
+                    && !x.IsDeleted)
+                    .FirstOrDefaultAsync();
 
-            return exist;
+            return exist != null ? true : false;
+        }
+
+        public async Task<bool> ExistUsernameOther(string username, string studentId)
+        {
+            var exist = await _studentRepository.ListQueryableNoTracking
+                .Where(x => x.Username == username
+                    && x.StudentId != studentId
+                    && !x.IsDeleted)
+                    .FirstOrDefaultAsync();
+
+            return exist != null ? true : false;
         }
 
         /// <summary>
         /// Kullanıcı adı ve şifre kontrolünü sağlar hem güncelleme hemde giriş yapma sırasında burası kullanılabilir
-        /// studentId verisi zorunlu değildir. Güncelleme işlemi sırasında kullanılır
         /// </summary>
         /// <param name="username"></param>
         /// <param name="studentId"></param>
         /// <returns></returns>
-        public async Task<Student> PasswordCheck(string username, string password, string studentId = "")
+        public async Task<Student> PasswordCheck(string username, string password)
         {
             var exist = await _studentRepository.ListQueryableNoTracking
                 .FirstOrDefaultAsync(x => 
                     x.Username == username 
                     && x.Password == password 
-                    && !string.IsNullOrWhiteSpace(studentId) ? x.StudentId == studentId : true 
                     && !x.IsDeleted);
 
             return exist;
@@ -176,7 +205,9 @@ namespace KUSYS.Business.Interfaces
             if (!hasExistUsername)
                 return new DbOperationResult<StudentSimpleDto>(false, "Kullanıcı adı veya şifre hatalı");
 
-            var login = await PasswordCheck(mDto.Username,mDto.Password);
+            var encryptPass = _cipher.Encrypt(mDto.Password);
+
+            var login = await PasswordCheck(mDto.Username, encryptPass);
             if(login == null)
                 return new DbOperationResult<StudentSimpleDto>(false, "Kullanıcı adı veya şifre hatalı");
 
@@ -184,7 +215,8 @@ namespace KUSYS.Business.Interfaces
                 .Where(x => x.StudentId == login.StudentId && !x.IsDeleted)
                 .Select(x => new StudentSimpleDto()
                 {
-                    Fullname = $"{x.FirstName} {x.LastName}",
+                    Firstname = x.FirstName, 
+                    Lastname = x.LastName,
                     RoleId = x.RoleId,
                     StudentId = x.StudentId
                 }).FirstOrDefaultAsync();
@@ -195,6 +227,16 @@ namespace KUSYS.Business.Interfaces
             return new DbOperationResult<StudentSimpleDto>(true, "Giriş Yapıldı", response);
         }
 
+        public async Task<StudentActionDto> GetStudentInfo(string id)
+        {
+            var data = await _studentRepository.ListQueryableNoTracking
+                .Where(x => x.StudentId == id && !x.IsDeleted)
+                .FirstOrDefaultAsync();
+
+            var mapData = ObjectMapper.Mapper.Map<StudentActionDto>(data);
+            return mapData;
+        }
+
         //Sadece session için kullan
         public async Task<StudentSimpleDto> GetStudent(string id)
         {
@@ -202,7 +244,8 @@ namespace KUSYS.Business.Interfaces
                 .Where(x => x.StudentId == id && !x.IsDeleted)
                 .Select(x => new StudentSimpleDto()
                 {
-                    Fullname = $"{x.FirstName} {x.LastName}",
+                    Firstname = x.FirstName, 
+                    Lastname = x.LastName,
                     RoleId = x.RoleId,
                     StudentId = x.StudentId
                 }).FirstOrDefaultAsync();
@@ -219,12 +262,13 @@ namespace KUSYS.Business.Interfaces
                 .Where(x => !x.IsDeleted)
                 .Select(x=> new StudentSimpleDto()
                 {
-                    Fullname = $"{x.FirstName} {x.LastName}",
+                    Firstname = x.FirstName,
+                    Lastname = x.LastName,
                     StudentId = x.StudentId,
                 });
 
-            response.TotalCount = result.Count();
-            response.RecordsFiltered = result.AddSearchFilters(filterModel).Count();
+            response.TotalCount = await result.CountAsync();
+            response.RecordsFiltered = await result.AddSearchFilters(filterModel).CountAsync();
             response.Data = await result.AddSearchFilters(filterModel).AddOrderAndPageFilters(filterModel).ToListAsync();
 
             return response;

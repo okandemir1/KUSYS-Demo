@@ -20,6 +20,8 @@ namespace KUSYS.Infra.IoC
         {
             //Services
             services.AddTransient<IStudentService, StudentService>();
+            services.AddTransient<IRoleService, RoleService>();
+            services.AddTransient<ICourseService, CourseService>();
 
             // Infra - Data
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));

@@ -19,13 +19,13 @@
                 <div class="col text-right">
                     <a href="@Url.Action("Create","Student")" class="btn btn-warning mr-2">Add New</a>
                 </div>
-                
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered table-hover table-striped" id="contentDataTable">
                     <thead>
                         <tr>
-                            <th>Fullname</th>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
                             <th>-</th>
                         </tr>
                     </thead>
@@ -68,9 +68,10 @@
                         },
                     },
                     "columns": [
-                        { "data": "fullname", "name": "Fullname", "autoWidth": true },
+                        { "data": "firstname", "name": "Firstname", "autoWidth": true },
+                        { "data": "lastname", "name": "Lastname", "autoWidth": true },
                         {
-                            "data": "id", "name": "Id", "autoWidth": true,
+                            "data": "studentId", "name": "StudentId", "autoWidth": true,
                             "render": function (data, type, full, meta) {
                                 var retHtml = "";
                                 retHtml += '<a title="Düzenle" class="btn btn-warning py-1 mr-2" href="/Student/Edit/' + full.studentId + '"><span class="fa fa-pencil"></span></a>';
