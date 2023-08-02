@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1t04vMYTzGgNhotJVWEjL638RNXnQcT7DqjAoxQUYZY=",
+  "Hash": "k/K4N76Jj4viuP8xGctSNvu/oPaPOGxIvkGCoOx1vmY=",
   "Source": "KUSYS.Application.WebUI",
   "BasePath": "_content/KUSYS.Application.WebUI",
   "Mode": "Default",
@@ -627,23 +627,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\_assets\\img\\icons\\ready.png"
-    },
-    {
-      "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\ky_logo.png",
-      "SourceId": "KUSYS.Application.WebUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\",
-      "BasePath": "_content/KUSYS.Application.WebUI",
-      "RelativePath": "_assets/img/ky_logo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\_assets\\img\\ky_logo.png"
     },
     {
       "Identity": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\logo.svg",

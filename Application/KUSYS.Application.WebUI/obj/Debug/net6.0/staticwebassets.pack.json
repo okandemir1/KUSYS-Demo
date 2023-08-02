@@ -145,10 +145,6 @@
       "PackagePath": "staticwebassets\\_assets\\img\\icons\\ready.png"
     },
     {
-      "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\ky_logo.png",
-      "PackagePath": "staticwebassets\\_assets\\img\\ky_logo.png"
-    },
-    {
       "Id": "C:\\Users\\okan_\\source\\repos\\KUSYS-Demo\\Application\\KUSYS.Application.WebUI\\wwwroot\\_assets\\img\\logo-mini.svg",
       "PackagePath": "staticwebassets\\_assets\\img\\logo-mini.svg"
     },
