@@ -1,8 +1,3 @@
-C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.csproj.AssemblyReference.cache
-C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.AssemblyInfoInputs.cache
-C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.AssemblyInfo.cs
-C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.csproj.CoreCompileInputs.cache
 C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\bin\Debug\net6.0\KUSYS.Infra.IoC.deps.json
 C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\bin\Debug\net6.0\KUSYS.Infra.IoC.dll
 C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\bin\Debug\net6.0\KUSYS.Infra.IoC.pdb
@@ -14,6 +9,11 @@ C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\bin\Debug\net6.0\KU
 C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\bin\Debug\net6.0\KUSYS.Model.pdb
 C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\bin\Debug\net6.0\KUSYS.Data.pdb
 C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\bin\Debug\net6.0\KUSYS.Dto.pdb
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.csproj.AssemblyReference.cache
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.AssemblyInfoInputs.cache
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.AssemblyInfo.cs
+C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.csproj.CoreCompileInputs.cache
 C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.csproj.CopyComplete
 C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\KUSYS.Infra.IoC.dll
 C:\Users\okan_\source\repos\KUSYS-Demo\Infra\KUSYS.Infra.IoC\obj\Debug\net6.0\refint\KUSYS.Infra.IoC.dll

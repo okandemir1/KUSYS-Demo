@@ -17,6 +17,6 @@ namespace KUSYS.Model.Base
     public abstract class BaseEntityWithDateAndId : BaseEntityWithDate
     {
         [Key]
-        public Guid Id { get; set; }
+        public int Id { get; set; }
     }
 }

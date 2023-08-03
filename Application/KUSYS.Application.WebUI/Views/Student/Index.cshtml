@@ -52,11 +52,32 @@
     </div>
 </div>
 
+<div class="modal fade" id="course-Modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Eşleştirilen Dersler</h4>
+            </div>
+            <div class="modal-body">
+                <div class="courseList"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default waves-effect " data-dismiss="modal">Kapat</button>
+                <button class="btn btn-primary waves-effect waves-light" id="updateCourses">Değişiklikleri Uygula</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     @section scripts{
 
     <script>
         var oTable;
         $(document).ready(function () {
+
+            let selectList = [];
+            let studentId = "";
+
             oTable = main.CreateDatatable('#contentDataTable',
                 {
                     serverSide: true,
@@ -74,6 +95,7 @@
                             "data": "studentId", "name": "StudentId", "autoWidth": true,
                             "render": function (data, type, full, meta) {
                                 var retHtml = "";
+                                retHtml += '<a title="Ders Ata" class="btn btn-primary selectCourse py-1 mr-2" data-id="' + full.studentId + '"><span class="fa fa-address-book-o"></span></a>';
                                 retHtml += '<a title="Düzenle" class="btn btn-warning py-1 mr-2" href="/Student/Edit/' + full.studentId + '"><span class="fa fa-pencil"></span></a>';
                                 retHtml += '<a title="Sil" class="btn btn-danger py-1 delete" data-id="' + full.studentId + '"><span class="fa fa-trash"></span></a>';
                                 return retHtml;
@@ -106,6 +128,70 @@
                 var id = $(this).attr("data-id");
                 LayoutJsHelper.Delete("Student/Delete", id);
             });
+
+            $("body").on("click", ".selectCourse", function(){
+                studentId = $(this).attr("data-id");
+                $.get("/Student/GetCourses?id="+studentId, function (response) {
+                    console.log(response);
+                    var retHtml = "";
+
+                    for(i in response.data){
+                        var item = response.data[i];
+                        retHtml += '<div>';
+                        if(item.isActive){
+                            retHtml += '<input type="checkbox" class="mr-2" checked id="' + item.courseId + '" name="' + item.courseId + '" value="' + item.courseId + '">' +
+                                        '<label for="' + item.courseId + '">'+item.courseName+'</label><br>';
+                        }
+                        else{
+                            retHtml += '<input type="checkbox" class="mr-2" id="' + item.courseId + '" name="' + item.courseId + '" value="' + item.courseId + '">' +
+                                        '<label for="' + item.courseId + '">'+item.courseName+'</label><br>';
+                        }
+                        retHtml += '</div>';
+                    }
+
+                    $(".courseList").html(retHtml);
+                    $("#course-Modal").modal({
+                        show: true,
+                        keyboard: true,
+                    });
+                });
+            });
+
+            
+
+            $("body").on("click", "#updateCourses", function(e){
+                selectItem();
+
+                if (selectList.length <= 0) { main.ShowError("Hay Aksi", "Atanacak ders seçilmemiş"); $("#course-Modal").modal('hide'); return false; }
+
+                var postData = {};
+                postData.courseList = selectList;
+                postData.studentId = studentId;
+                var ajax_settings = {};
+                ajax_settings.url = "/Student/AddCourse";
+                ajax_settings.method = "POST";
+                ajax_settings.data = postData;
+
+                main.AjaxHelper(ajax_settings, function (e) {
+                    if (e.isSucceed) {
+                        $("#course-Modal").modal('hide');
+                        main.SuccessMessage("Başarılı", "Ders atama işlemi tamamlanmıştır");
+                    }
+                    else {
+                        $("#course-Modal").modal('hide');
+                        main.ShowError("Hay Aksi", e.message);
+                    }
+                });
+            });
+
+            function selectItem() {
+                selectList = [];
+                $("input[type='checkbox']").each(function (index, element) {
+                    if ($(element).is(":checked")) {
+                        selectList.push($(element).val());
+                    }
+                });
+            }
         });
     </script>
 }

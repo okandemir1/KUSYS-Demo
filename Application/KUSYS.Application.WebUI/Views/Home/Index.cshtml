@@ -1,113 +1,163 @@
-﻿@{
+﻿@model StudentCourseViewList
+@{
     ViewBag.Title = "Dashboard";
     var claims = _session.Get<List<KUSYS.Model.RoleClaim>>("StudentClaims");
+    var permission = claims != null && claims.Select(x => x.DefaultClaim.UserRight).ToList().Contains("StudentManagement") || claims != null && claims.Select(x => x.DefaultClaim.UserRight).ToList().Contains("SelectCourse");
 }
 
 <div class="content">
     <div class="card">
-        <div class="card-header">
-            <h5>Students</h5>
-        </div>
         <div class="card-body">
-            <div class="row mb-3">
-                <div class="col-lg-* pr-3">
-                    <input placeholder="Search..." class="form-control" id="contentSearchInput">
-                </div>
-                <div class="col-lg-*">
-                    <button class="btn btn-success" id="filterButton">Filter</button>
-                </div>
-                @if (claims != null && claims.Select(x => x.DefaultClaim.UserRight).ToList().Contains("StudentManagement"))
-                {
-                    <div class="col text-right">
-                        <a href="@Url.Action("Create","Student")" class="btn btn-warning mr-2">Add New</a>
-                    </div>
-                }
-            </div>
             <div class="table-responsive">
-                <table class="table table-bordered table-hover table-striped" id="contentDataTable">
+                <table class="table table-bordered table-hover table-striped">
                     <thead>
                         <tr>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>-</th>
+                            <td>Adı</td>
+                            <td>Soyadı</td>
+                            <td>Ders Listesi</td>
+                            <td>-</td>
                         </tr>
                     </thead>
                     <tbody>
+                        @foreach (var item in Model.Students)
+                        {
+                            <tr>
+                                <td>@item.FirstName</td>
+                                <td>@item.LastName</td>
+                                <td>
+                                    @for (int i = 0; i < Model.Courses.Count(); i++)
+                                    {
+                                        if (i == (Model.Courses.Count() - 1))
+                                        {
+                                            <text>@Model.Courses[i].CourseName</text>
+                                        }
+                                        else
+                                        {
+                                            <text>@Model.Courses[i].CourseName - </text>
+                                        }
+                                    }
+                                </td>
+                                <td>
+                                    @if (claims != null && claims.Select(x => x.DefaultClaim.UserRight).ToList().Contains("StudentManagement")
+                                   || claims != null && claims.Select(x => x.DefaultClaim.UserRight).ToList().Contains("SelectCourse"))
+                                    {
+                                        <button class="btn btn-sm btn-primary courses" data-id="@item.StudentId">Ders Seç</button>
+                                    }
+                                    else
+                                    {
+                                        <button class="btn btn-sm btn-primary courses" data-id="@item.StudentId">Kurs Listesi</button>
+                                    }
+                                </td>
+                            </tr>
+                        }
                     </tbody>
                 </table>
             </div>
-            <div class="col-12 mb-3">
-                <span class="text-muted text-small datatable-outofbox-infotext"> </span>
-                <button class="btn btn-outline-dark btn-sm dropdown-toggle datatable-outofbox-lengthtext"
-                        role="button" data-toggle="dropdown" aria-expanded="false">
-                    10
-                </button>
-                <div class="dropdown-menu dropdown-menu-right datatable-outofbox-length">
-                    <a class="dropdown-item datatable-outofbox-dropdownButton">10</a>
-                    <a class="dropdown-item datatable-outofbox-dropdownButton">20</a>
-                    <a class="dropdown-item datatable-outofbox-dropdownButton">30</a>
-                    <a class="dropdown-item datatable-outofbox-dropdownButton">50</a>
-                    <a class="dropdown-item datatable-outofbox-dropdownButton">100</a>
-                </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="course-Modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Eşleştirilen Dersler</h4>
+            </div>
+            <div class="modal-body">
+                <div class="courseList"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default waves-effect " data-dismiss="modal">Kapat</button>
+                @if (claims != null && claims.Select(x => x.DefaultClaim.UserRight).ToList().Contains("StudentManagement")
+                    || claims != null && claims.Select(x => x.DefaultClaim.UserRight).ToList().Contains("SelectCourse"))
+                {
+                    <button class="btn btn-primary waves-effect waves-light" id="updateCourses">Değişiklikleri Uygula</button>
+                }
             </div>
         </div>
-
     </div>
 </div>
 
 @section scripts{
 
     <script>
-        var oTable;
         $(document).ready(function () {
-            oTable = main.CreateDatatable('#contentDataTable',
-                {
-                    serverSide: true,
-                    ajax: {
-                        url: "@Url.Action("GetStudentList", "Home")",
-                        "type": "POST",
-                        "datatype": "json",
-                        data: function (d) {
-                        },
-                    },
-                    "columns": [
-                        { "data": "firstname", "name": "Firstname", "autoWidth": true },
-                        { "data": "lastname", "name": "Lastname", "autoWidth": true },
-                        {
-                            "data": "studentId", "name": "StudentId", "autoWidth": true,
-                            "render": function (data, type, full, meta) {
-                                var retHtml = "";
-                                retHtml += '<a title="Course List" class="btn btn-danger py-1 courses" data-id="' + full.studentId + '"><span class="fa fa-search"></span></a>';
-                                return retHtml;
-                            }
-                        },
-                    ]
-                });
-
-            $("body").on("click", "#filterButton", function () {
-                oTable.search($("#contentSearchInput").val());
-                oTable.draw();
-            });
-
-            $('body').keypress(function (event) {
-                var keycode = (event.keyCode ? event.keyCode : event.which);
-                if (keycode == '13') {
-                    event.preventDefault();
-                }
-            });
-
-            $('#contentSearchInput').keypress(function (event) {
-                var keycode = (event.keyCode ? event.keyCode : event.which);
-                if (keycode == '13') {
-                    oTable.search($("#contentSearchInput").val());
-                    oTable.draw();
-                }
-            });
-
+            let selectList = [];
+            let studentId = "";
+            let permission = "@permission";
             $("body").on("click", ".courses", function () {
-                var id = $(this).attr("data-id");
-                console.log(id);
+                studentId = $(this).attr("data-id");
+                $.get("/Home/GetCourses?id=" + studentId, function (response) {
+                    var retHtml = "";
+
+                    for (i in response.data) {
+                        var item = response.data[i];
+                        retHtml += '<div>';
+                        if (item.isActive) {
+                            if(permission == "True"){
+                                retHtml += '<input type="checkbox" class="mr-2" checked id="' + item.courseId + '" name="' + item.courseId + '" value="' + item.courseId + '">' +
+                                    '<label for="' + item.courseId + '">' + item.courseName + '</label><br>';
+                            }
+                            else{
+                                retHtml += '<label for="' + item.courseId + '">' + item.courseName + '</label><br>';
+                            }
+                            
+                        }
+                        else {
+                            if (permission == "True") {
+                                retHtml += '<input type="checkbox" class="mr-2" id="' + item.courseId + '" name="' + item.courseId + '" value="' + item.courseId + '">' +
+                                    '<label for="' + item.courseId + '">' + item.courseName + '</label><br>';
+                            }
+                            else {
+                                retHtml += '<label for="' + item.courseId + '">' + item.courseName + '</label><br>';
+                            }
+                        }
+                        retHtml += '</div>';
+                    }
+
+                    $(".courseList").html(retHtml);
+                    $("#course-Modal").modal({
+                        show: true,
+                        keyboard: true,
+                    });
+                });
             });
+
+            $("body").on("click", "#updateCourses", function (e) {
+                if (permission == "True") {
+                    selectItem();
+
+                    if (selectList.length <= 0) { main.ShowError("Hay Aksi", "Atanacak ders seçilmemiş"); $("#course-Modal").modal('hide'); return false; }
+
+                    var postData = {};
+                    postData.courseList = selectList;
+                    postData.studentId = studentId;
+                    var ajax_settings = {};
+                    ajax_settings.url = "/Home/AddCourse";
+                    ajax_settings.method = "POST";
+                    ajax_settings.data = postData;
+
+                    main.AjaxHelper(ajax_settings, function (e) {
+                        if (e.isSucceed) {
+                            $("#course-Modal").modal('hide');
+                            main.SuccessActionMessage("Başarılı", "Ders atama işlemi tamamlanmıştır","");
+                        }
+                        else {
+                            $("#course-Modal").modal('hide');
+                            main.ShowError("Hay Aksi", e.message);
+                        }
+                    });
+                }
+            });
+
+            function selectItem() {
+                selectList = [];
+                $("input[type='checkbox']").each(function (index, element) {
+                    if ($(element).is(":checked")) {
+                        selectList.push($(element).val());
+                    }
+                });
+            }
         });
     </script>
 }

@@ -11,12 +11,12 @@
 
     public class KUSYSDbContext : DbContext
     {
-        public DbSet<Admin> Admins { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<DefaultClaim> DefaultClaims { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<RoleClaim> RoleClaims { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<StudentCourse> StudentCourses { get; set; }
 
         public KUSYSDbContext(DbContextOptions<KUSYSDbContext> options) : base(options)
         {

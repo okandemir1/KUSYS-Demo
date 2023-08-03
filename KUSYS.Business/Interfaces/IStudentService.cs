@@ -9,6 +9,8 @@ namespace KUSYS.Business.Interfaces
     {
         Task<List<Student>> GetStudents();
         Task<DataTableViewModelResult<List<StudentSimpleDto>>> GetAll(StudentFilterModel filterModel);
+        Task<StudentCourseViewList> GetAllWithCourses();
+        Task<StudentCourseViewList> GetStudentWithCourses(string studentId);
         Task<DbOperationResult> Add(StudentActionDto mDto);
         Task<DbOperationResult> Edit(StudentActionDto mDto);
         Task<DbOperationResult> Delete(string id);

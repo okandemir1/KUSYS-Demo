@@ -57,6 +57,8 @@ namespace KUSYS.Application.WebUI.Controllers
                 new ClaimsPrincipal(claimsIdentity),
                 authProperties);
 
+            _sessionHelper.Set("Student", student);
+
             return Json(new { isSucceed = loginResult.IsSucceed, message = loginResult.Message, errors = loginResult.Errors, instance = "" });
         }
 
@@ -67,7 +69,7 @@ namespace KUSYS.Application.WebUI.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-                _sessionHelper.Set("User", null);
+                _sessionHelper.Set("Student", null);
             }
             
             return RedirectToAction("Login","Auth");

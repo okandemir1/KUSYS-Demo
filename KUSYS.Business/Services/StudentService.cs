@@ -13,12 +13,17 @@ namespace KUSYS.Business.Interfaces
     public class StudentService : IStudentService
     {
         private readonly IRepository<Student> _studentRepository;
+        private readonly IRepository<StudentCourse> _studentCourseRepository;
+        private readonly ICourseService _courseService;
 
         Cipher _cipher;
-        public StudentService(IRepository<Student> _studentRepository)
+        public StudentService(IRepository<Student> _studentRepository, IRepository<StudentCourse> _studentCourseRepository, ICourseService _courseService)
         {
             this._studentRepository = _studentRepository;
+            this._studentCourseRepository = _studentCourseRepository;
             _cipher = new Cipher();
+            this._courseService = _courseService;
+
         }
 
         public Task<List<Student>> GetStudents()
@@ -272,6 +277,52 @@ namespace KUSYS.Business.Interfaces
             response.Data = await result.AddSearchFilters(filterModel).AddOrderAndPageFilters(filterModel).ToListAsync();
 
             return response;
+        }
+
+        public async Task<StudentCourseViewList> GetAllWithCourses()
+        {
+            var students = await _studentRepository.ListQueryableNoTracking
+                .Where(x => !x.IsDeleted).ToListAsync();
+
+            var studentIds = students.GroupBy(x => x.StudentId).Select(x => x.Key).ToList();
+
+            var studentCourses = await _studentCourseRepository.ListQueryableNoTracking
+                .Where(x => studentIds.Contains(x.StudentId) && x.IsActive).ToListAsync();
+
+            var studentCourseIds = studentCourses.GroupBy(x => x.CourseId).Select(x => x.Key).ToList();
+
+            var getCourses = await _courseService.GetCoursesByIdList(studentCourseIds);
+
+            var model = new StudentCourseViewList()
+            {
+                Courses = getCourses,
+                Students = students,
+                StudentCourses = studentCourses,
+            };
+
+            return model;
+        }
+
+        public async Task<StudentCourseViewList> GetStudentWithCourses(string studentId)
+        {
+            var students = await _studentRepository.ListQueryableNoTracking
+                .Where(x => x.StudentId == studentId && !x.IsDeleted).ToListAsync();
+
+            var studentCourses = await _studentCourseRepository.ListQueryableNoTracking
+                .Where(x => x.StudentId == studentId && x.IsActive && !x.IsDeleted).ToListAsync();
+
+            var studentCourseIds = studentCourses.GroupBy(x => x.CourseId).Select(x => x.Key).ToList();
+
+            var getCourses = await _courseService.GetCoursesByIdList(studentCourseIds);
+
+            var model = new StudentCourseViewList()
+            {
+                Courses = getCourses,
+                Students = students,
+                StudentCourses = studentCourses,
+            };
+
+            return model;
         }
     }
 }

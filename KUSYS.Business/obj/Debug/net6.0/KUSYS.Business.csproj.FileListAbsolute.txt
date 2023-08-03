@@ -1,8 +1,3 @@
-C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.csproj.AssemblyReference.cache
-C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.AssemblyInfoInputs.cache
-C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.AssemblyInfo.cs
-C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.csproj.CoreCompileInputs.cache
 C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\bin\Debug\net6.0\KUSYS.Business.deps.json
 C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\bin\Debug\net6.0\KUSYS.Business.dll
 C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\bin\Debug\net6.0\KUSYS.Business.pdb
@@ -12,6 +7,11 @@ C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\bin\Debug\net6.0\KUSYS.Mod
 C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\bin\Debug\net6.0\KUSYS.Data.pdb
 C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\bin\Debug\net6.0\KUSYS.Dto.pdb
 C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\bin\Debug\net6.0\KUSYS.Model.pdb
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.csproj.AssemblyReference.cache
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.AssemblyInfoInputs.cache
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.AssemblyInfo.cs
+C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.csproj.CoreCompileInputs.cache
 C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.csproj.CopyComplete
 C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\KUSYS.Business.dll
 C:\Users\okan_\source\repos\KUSYS-Demo\KUSYS.Business\obj\Debug\net6.0\refint\KUSYS.Business.dll

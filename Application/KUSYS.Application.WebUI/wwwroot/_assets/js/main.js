@@ -86,6 +86,7 @@
 
         Swal.fire({
             title: title,
+            icon:'success',
             html: message,
             confirmButtonText: 'Tamam',
         });
@@ -124,6 +125,7 @@
         Swal.fire({
             title: title,
             html: message,
+            icon: 'success',
             timer: 1500,
             timerProgressBar: true,
             didOpen: () => {
