@@ -19,5 +19,6 @@ namespace KUSYS.Business.Interfaces
         Task<DbOperationResult<StudentSimpleDto>> Login(LoginDto mDto);
         Task<bool> ExistUsername(string username);
         Task<Student> PasswordCheck(string username, string password);
+        Task<DbOperationResult> CreateDemo();
     }
 }

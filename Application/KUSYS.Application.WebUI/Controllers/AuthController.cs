@@ -25,6 +25,12 @@ namespace KUSYS.Application.WebUI.Controllers
             return View();
         }
 
+        public async Task<IActionResult> Demo()
+        {
+            await _studentService.CreateDemo();
+            return Json(new { isSucceed = true, });
+        }
+
         [HttpPost]
         public async Task<IActionResult> Login(LoginDto reqModel)
         {

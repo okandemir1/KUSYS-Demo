@@ -14,13 +14,27 @@ namespace KUSYS.Business.Interfaces
     {
         private readonly IRepository<Student> _studentRepository;
         private readonly IRepository<StudentCourse> _studentCourseRepository;
+        private readonly IRepository<Role> _roleRepository;
+        private readonly IRepository<RoleClaim> _roleClaimRepository;
+        private readonly IRepository<DefaultClaim> _defaultClaimRepository;
+        private readonly IRepository<Course> _courseRepository;
         private readonly ICourseService _courseService;
 
         Cipher _cipher;
-        public StudentService(IRepository<Student> _studentRepository, IRepository<StudentCourse> _studentCourseRepository, ICourseService _courseService)
+        public StudentService(IRepository<Student> _studentRepository, 
+            IRepository<StudentCourse> _studentCourseRepository, 
+            IRepository<Role> _roleRepository,
+            IRepository<RoleClaim> _roleClaimRepository,
+            IRepository<DefaultClaim> _defaultClaimRepository,
+            IRepository<Course> _courseRepository,
+            ICourseService _courseService)
         {
             this._studentRepository = _studentRepository;
             this._studentCourseRepository = _studentCourseRepository;
+            this._roleRepository = _roleRepository;
+            this._roleClaimRepository = _roleClaimRepository;
+            this._defaultClaimRepository = _defaultClaimRepository;
+            this._courseRepository = _courseRepository;
             _cipher = new Cipher();
             this._courseService = _courseService;
 
@@ -323,6 +337,129 @@ namespace KUSYS.Business.Interfaces
             };
 
             return model;
+        }
+
+        //Bu alanı görmezden gelebiliriz demo veri oluşturulsun diye eklenmiştir
+        public async Task<DbOperationResult> CreateDemo()
+        {
+            var roles = new List<Role>();
+
+            roles.Add(new Role()
+            {
+                CreateDate = DateTime.Now,
+                IsDeleted = false,
+                Name = "Admin",
+                UpdateDate = DateTime.Now,
+            });
+
+            roles.Add(new Role()
+            {
+                CreateDate = DateTime.Now,
+                IsDeleted = false,
+                Name = "Student1",
+                UpdateDate = DateTime.Now,
+            });
+
+            roles.Add(new Role()
+            {
+                CreateDate = DateTime.Now,
+                IsDeleted = false,
+                Name = "Student2",
+                UpdateDate = DateTime.Now,
+            });
+
+            var roleInsert = await _roleRepository.Insert(roles);
+
+            var defaultClaims = new List<DefaultClaim>();
+            defaultClaims.Add(new DefaultClaim()
+            {
+                UpdateDate = DateTime.Now,
+                IsDeleted = false,
+                CreateDate = DateTime.Now,
+                Label = "Öğrenci Yönetimi",
+                UserRight = "StudentManagement",
+            });
+            defaultClaims.Add(new DefaultClaim()
+            {
+                UpdateDate = DateTime.Now,
+                IsDeleted = false,
+                CreateDate = DateTime.Now,
+                Label = "Ders Seçebilir",
+                UserRight = "SelectCourse",
+            });
+
+            var claimInsert = await _defaultClaimRepository.Insert(defaultClaims);
+
+            var roleClaims = new List<RoleClaim>();
+            roleClaims.Add(new RoleClaim() { 
+                CreateDate = DateTime.Now,
+                UpdateDate = DateTime.Now,
+                IsDeleted = false,
+                RoleId = roles.Where(x=>x.Name == "Admin").FirstOrDefault().Id,
+                DefaultClaimId = defaultClaims.Where(x=>x.UserRight == "StudentManagement").FirstOrDefault().Id,
+            });
+            roleClaims.Add(new RoleClaim()
+            {
+                CreateDate = DateTime.Now,
+                UpdateDate = DateTime.Now,
+                IsDeleted = false,
+                RoleId = roles.Where(x => x.Name == "Admin").FirstOrDefault().Id,
+                DefaultClaimId = defaultClaims.Where(x => x.UserRight == "SelectCourse").FirstOrDefault().Id,
+            });
+            roleClaims.Add(new RoleClaim()
+            {
+                CreateDate = DateTime.Now,
+                UpdateDate = DateTime.Now,
+                IsDeleted = false,
+                RoleId = roles.Where(x => x.Name == "Student1").FirstOrDefault().Id,
+                DefaultClaimId = defaultClaims.Where(x => x.UserRight == "SelectCourse").FirstOrDefault().Id,
+            });
+
+            var insertRoleClaims = await _roleClaimRepository.Insert(roleClaims);
+
+            var courseList = new List<Course>();
+            courseList.Add(new Course()
+            {
+                CourseId = "CSI101",
+                CourseName = "Introduction to Computer Science",
+                IsDeleted = false,
+            });
+            courseList.Add(new Course()
+            {
+                CourseId = "CSI102",
+                CourseName = "Algorithms",
+                IsDeleted = false,
+            });
+            courseList.Add(new Course()
+            {
+                CourseId = "MAT101",
+                CourseName = "Calculus",
+                IsDeleted = false,
+            });
+            courseList.Add(new Course()
+            {
+                CourseId = "PHY101",
+                CourseName = "Physics",
+                IsDeleted = false,
+            });
+
+            var courseInsert = await _courseRepository.Insert(courseList);
+
+            var user = new Student()
+            {
+                StudentId = Guid.NewGuid().ToString().Split('-')[0],
+                BirthDate = new DateTime(1993,05,10),
+                FirstName = "Okan",
+                IsDeleted = false,
+                Password = "HRAN4L6R+007cvM+m17uqQ==",
+                LastName = "Demir",
+                Username = "o",
+                RoleId = roles.Where(x => x.Name == "Admin").FirstOrDefault().Id,
+            };
+
+            var studentInsert = await _studentRepository.Insert(user);
+
+            return new DbOperationResult(true, "");
         }
     }
 }
